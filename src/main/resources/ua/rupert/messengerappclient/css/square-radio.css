@@ -1,0 +1,22 @@
+.radio-button .radio {
+    -fx-background-color:  #242f3d;
+    -fx-border-color:  #a4a3a8;
+
+    /* Робить зовнішній контур квадратним */
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+
+    /* Встановлення ширини і висоти для кращого вигляду */
+    -fx-min-width: 13px;
+    -fx-min-height: 13px;
+    -fx-max-width: 13px;
+    -fx-max-height: 13px;
+}
+
+.radio-button:selected .dot {
+    /* Робить внутрішню "точку" (коли кнопка вибрана) квадратною */
+    -fx-background-radius: 5;
+    -fx-background-color: #9dc7f1;
+
+    -fx-background-insets: 0;
+}
