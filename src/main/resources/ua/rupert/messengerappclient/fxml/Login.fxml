@@ -7,57 +7,56 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.text.Font?>
 
-
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
    <center>
       <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #17212b;" BorderPane.alignment="CENTER">
          <children>
             <Pane maxHeight="600.0" maxWidth="600.0">
                <children>
-                  <TextField layoutX="100.0" layoutY="197.0" minHeight="30.0" minWidth="400.0" style="-fx-background-radius: 7; -fx-background-color: #242f3d; -fx-border-color: #a4a3a8; -fx-border-radius: 7;" />
-                  <Button layoutX="100.0" layoutY="396.0" minHeight="35.0" minWidth="400.0" mnemonicParsing="false" style="-fx-background-color: #9dc7f1; -fx-background-radius: 7;" text="Sign in">
+                  <TextField layoutX="100.0" layoutY="182.0" minHeight="30.0" minWidth="400.0" style="-fx-background-radius: 7; -fx-background-color: #242f3d; -fx-border-color: #a4a3a8; -fx-border-radius: 7;" />
+                  <Button layoutX="100.0" layoutY="381.0" minHeight="35.0" minWidth="400.0" mnemonicParsing="false" style="-fx-background-color: #9dc7f1; -fx-background-radius: 7;" text="Sign in">
                      <font>
                         <Font size="16.0" />
                      </font>
                   </Button>
-                  <Label layoutX="100.0" layoutY="160.0" text="Username" textFill="#ececef">
+                  <Label layoutX="100.0" layoutY="150.0" text="Username" textFill="#ececef">
                      <font>
                         <Font name="System Bold" size="16.0" />
                      </font>
                   </Label>
-                  <TextField layoutX="100.0" layoutY="288.0" minHeight="30.0" minWidth="400.0" style="-fx-background-radius: 7; -fx-background-color: #242f3d; -fx-border-color: #a4a3a8; -fx-border-radius: 7;" />
-                  <Label layoutX="100.0" layoutY="253.0" text="Password" textFill="#ececef">
+                  <TextField layoutX="100.0" layoutY="273.0" minHeight="30.0" minWidth="400.0" style="-fx-background-radius: 7; -fx-background-color: #242f3d; -fx-border-color: #a4a3a8; -fx-border-radius: 7;" />
+                  <Label layoutX="100.0" layoutY="240.0" text="Password" textFill="#ececef">
                      <font>
                         <Font name="System Bold" size="16.0" />
                      </font>
                   </Label>
-                  <Label layoutX="327.0" layoutY="329.0" text="Forgot your password?" textFill="#9dc7f1">
+                  <Label layoutX="327.0" layoutY="314.0" text="Forgot your password?" textFill="#9dc7f1">
                      <font>
                         <Font name="System Bold" size="16.0" />
                      </font>
                   </Label>
-                  <Label layoutX="144.0" layoutY="445.0" text="Don't have an account yet?" textFill="#ececef">
+                  <Label layoutX="144.0" layoutY="430.0" text="Don't have an account yet?" textFill="#ececef">
                      <font>
                         <Font name="System Bold" size="16.0" />
                      </font>
                   </Label>
-                  <Label layoutX="348.0" layoutY="445.0" text=" Register now" textFill="#9dc7f1">
+                  <Label layoutX="348.0" layoutY="430.0" text=" Register now" textFill="#9dc7f1">
                      <font>
                         <Font name="System Bold" size="16.0" />
                      </font>
                   </Label>
-                  <Label layoutX="103.0" layoutY="497.0" maxHeight="1.0" minHeight="1.0" prefHeight="1.0" prefWidth="135.0" style="-fx-background-color: #FFF;" />
-                  <Label layoutX="246.0" layoutY="483.0" text="or sign in with" textFill="#ececef">
+                  <Label layoutX="103.0" layoutY="482.0" maxHeight="1.0" minHeight="1.0" prefHeight="1.0" prefWidth="135.0" style="-fx-background-color: #FFF;" />
+                  <Label layoutX="246.0" layoutY="468.0" text="or sign in with" textFill="#ececef">
                      <font>
                         <Font name="System Bold" size="16.0" />
                      </font>
                   </Label>
-                  <Label layoutX="362.0" layoutY="497.0" maxHeight="1.0" minHeight="1.0" prefHeight="1.0" prefWidth="135.0" style="-fx-background-color: #FFF;" />
-                  <Button layoutX="100.0" layoutY="525.0" minHeight="35.0" minWidth="400.0" mnemonicParsing="false" style="-fx-background-color: #615f64; -fx-background-radius: 7;" text="Google" textFill="#ececef">
+                  <Button layoutX="100.0" layoutY="510.0" minHeight="35.0" minWidth="400.0" mnemonicParsing="false" style="-fx-background-color: #615f64; -fx-background-radius: 7;" text="Google" textFill="#ececef">
                      <font>
                         <Font size="16.0" />
                      </font>
@@ -69,18 +68,19 @@
                         </ImageView>
                      </graphic>
                   </Button>
-                  <Label layoutX="192.0" layoutY="118.0" text="Sign in to MyMesseger" textFill="#ececef">
+                  <Label layoutX="362.0" layoutY="482.0" maxHeight="1.0" minHeight="1.0" prefHeight="1.0" prefWidth="135.0" style="-fx-background-color: #FFF;" />
+                  <Label layoutX="192.0" layoutY="103.0" text="Sign in to MyMesseger" textFill="#ececef">
                      <font>
                         <Font name="System Bold" size="20.0" />
                      </font>
                   </Label>
-                  <RadioButton accessibleRole="BUTTON" layoutX="100.0" layoutY="362.0" mnemonicParsing="false" style="-fx-background-radius: 0; -fx-border-radius: 10;" stylesheets="@../css/square-radio.css" />
-                  <Label layoutX="127.0" layoutY="359.0" text="Remember me" textFill="#ececef">
+                  <RadioButton accessibleRole="BUTTON" layoutX="100.0" layoutY="347.0" mnemonicParsing="false" style="-fx-background-radius: 0; -fx-border-radius: 10;" stylesheets="@../css/square-radio.css" />
+                  <Label layoutX="127.0" layoutY="344.0" text="Remember me" textFill="#ececef">
                      <font>
                         <Font name="System Bold" size="16.0" />
                      </font>
                   </Label>
-                  <ImageView fitHeight="126.0" fitWidth="134.0" layoutX="237.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="126.0" fitWidth="134.0" layoutX="237.0" layoutY="-8.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../icons/MyMessenger-Photoroom.png" />
                      </image>
@@ -90,4 +90,37 @@
          </children>
       </StackPane>
    </center>
+   <top>
+      <HBox alignment="TOP_RIGHT" maxHeight="23.0" minHeight="23.0" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #242f3d;" BorderPane.alignment="CENTER">
+         <children>
+            <Button maxHeight="22.0" maxWidth="40.0" minHeight="22.0" minWidth="40.0" mnemonicParsing="false" style="-fx-background-color: #242f3d;">
+               <graphic>
+                  <ImageView fitHeight="15.0" fitWidth="15.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icons/minimized-window.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button maxHeight="22.0" maxWidth="40.0" minHeight="22.0" minWidth="40.0" mnemonicParsing="false" style="-fx-background-color: #242f3d;">
+               <graphic>
+                  <ImageView fitHeight="15.0" fitWidth="15.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icons/full-window.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button maxHeight="22.0" maxWidth="40.0" minHeight="22.0" minWidth="40.0" mnemonicParsing="false" style="-fx-background-color: #242f3d;">
+               <graphic>
+                  <ImageView fitHeight="15.0" fitWidth="15.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icons/close_window.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </HBox>
+   </top>
 </BorderPane>
