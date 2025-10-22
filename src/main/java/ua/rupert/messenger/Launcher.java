@@ -1,4 +1,4 @@
-package ua.rupert.messengerappclient;
+package ua.rupert.messenger;
 
 import javafx.application.Application;
 

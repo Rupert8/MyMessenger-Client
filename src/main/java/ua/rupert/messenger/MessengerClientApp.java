@@ -1,12 +1,14 @@
-package ua.rupert.messengerappclient;
+package ua.rupert.messenger;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import ua.rupert.messengerappclient.config.AppConfig;
+import ua.rupert.messenger.config.AppConfig;
+import ua.rupert.messenger.utils.ScreenManager;
 
 import java.io.IOException;
 
@@ -20,11 +22,9 @@ public class MessengerClientApp extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(MessengerClientApp.class.getResource("Login.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 320, 240);
-        stage.setTitle("Hello!");
-        stage.setScene(scene);
-        stage.show();
+        ScreenManager screenManager = springContext.getBean(ScreenManager.class);
+        screenManager.setPrimaryStage(stage);
+        screenManager.switchScene("/ua/rupert/messenger/fxml/Login.fxml");
     }
 
     @Override

@@ -1,9 +1,9 @@
-package ua.rupert.messengerappclient.config;
+package ua.rupert.messenger.config;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan
+@ComponentScan("ua.rupert.messenger")
 public class AppConfig {
 }
